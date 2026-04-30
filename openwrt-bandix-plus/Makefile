@@ -19,7 +19,7 @@ RUST_BINARY_FILENAME:=bandix-plus-$(RUST_BANDIX_VERSION)-$(RUSTC_TARGET_ARCH).ta
 
 # 修正下载地址定义方式
 PKG_SOURCE:=$(RUST_BINARY_FILENAME)
-PKG_SOURCE_URL:=https://github.com/timsaya/bandix-plus-plus/releases/download/v$(RUST_BANDIX_VERSION)
+PKG_SOURCE_URL:=https://github.com/timsaya/bandix-plus-release/releases/download/v$(RUST_BANDIX_VERSION)
 
 
 define Package/$(PKG_NAME)
