@@ -4,6 +4,8 @@ PKG_NAME:=bandix-plus
 PKG_VERSION:=0.1.0
 PKG_RELEASE:=1
 
+PKG_HASH:=skip
+
 PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=timsaya
 
