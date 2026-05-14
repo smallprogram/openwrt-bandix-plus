@@ -331,5 +331,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{needs.job_check.outputs.openwrt-bandix_version}}
+          tag_name: ${{needs.job_check.outputs.openwrt-bandix-plus_version}}
           files: ${{ env.FIRMWARE }}/*
